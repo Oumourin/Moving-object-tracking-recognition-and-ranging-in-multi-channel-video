@@ -1,0 +1,36 @@
+{
+  "object_detection":[
+    {
+    "model" : "object_detection/weights/yolov3.weights",
+    "cfg" : "object_detection/cfg/yolov3.cfg",
+    "classes" : "object_detection/classes/object_detection_classes_yolov3.txt"
+    }
+    ],
+  "camera":
+    {
+      "known_distance": 18,
+      "known_width": 9.96,
+      "known_height": 6.69,
+      "person": 70,
+      "paper": 11.69,
+      "focal_length": 833.4
+    },
+  "camera2":
+  {
+    "known_distance": 31.7,
+    "known_width": 11.75,
+    "known_height": 8.27,
+    "person": 70,
+    "focal_length": 0
+  },
+  "classes":
+  {
+    "person": 70
+  },
+  "focal_length":
+  {
+    "AUSDOM": 580,
+    "LOGITECH": 550
+  }
+
+}
